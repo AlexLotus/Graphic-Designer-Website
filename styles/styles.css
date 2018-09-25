@@ -1,5 +1,53 @@
+body {
+    position:relative;
+    overflow-x:hidden;
+    overflow-y:scroll!important;
+    margin: 0;
+}
+
 .head{
     background-image:url('../images/background.png');
     background-size:cover;
+    background-attachment:fixed;
+    background-position:top;
     height:100vh;
+    -webkit-background-size:cover;
+    
 }
+.row {
+    object-position: center;
+    /*
+    border-style: groove;
+    border-color: coral;
+    border-width: 7px;
+    */
+    width:75%;
+    overflow:hidden;
+    margin: auto;
+
+  /* bring your own prefixes */
+    transform: translate(0%, 50%);
+}
+#three{
+    background-image:url('../images/background.png');
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:top;
+    height:100vh;
+    -webkit-background-size:cover;
+}
+
+.parallax-window {
+    min-height: 100vh;
+    background: transparent;
+}
+
+.ball1{position:absolute;left:20px;top:469px}
+.ball2{position:absolute;left:384px;top:218px}
+.ball3{position:absolute;left:188px;top:121px}
+.ball4{position:absolute;left:635px;top:350px;z-index:1}
+.ball5{position:absolute;right:155px;top:28px}
+.ball6{position:absolute;right:611px;top:234px}
+.ball7{position:absolute;right:288px;top:318px}
+.ball8{position:absolute;right:348px;top:618px}
+
